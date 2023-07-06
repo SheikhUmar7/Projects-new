@@ -1,0 +1,231 @@
+
+.topHeading{
+  font-family: 'Garnet';
+  src: local('Garnet Script Regular'), local('Garnet-Script-Regular'),
+      url('../fonts/GarnetScript-Regular.woff2') format('woff2'),
+      url('../fonts/GarnetScript-Regular.woff') format('woff'),
+      url('../fonts/GarnetScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header_info {
+  text-align: left;
+  position: relative;
+}
+.header_info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header_info ul li {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  padding-left: 25px;
+  position: relative;
+}
+
+.header_info ul li sup {
+  font-size: 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+ .header_info ul li i {
+  font-size: 32px;
+  margin-right: 10px;
+  color: #bd9341;
+}
+
+.header_info ul li a {
+  color: #bd9341;
+}
+
+.header_info ul li a:hover, .header_info ul li:hover i {
+  color: #f2a4ba;
+
+}
+
+ .header_info ul li span {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: 500;
+}
+ .header_info ul li span a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+
+.btn-common {
+  background-color: #f2a4ba;
+  border: 0px;
+  border-radius: 33px;
+  color: #fff;
+}
+.btn-common:hover {
+
+  color: #000;
+  background-color: #fff;
+
+}
+
+.navBar .form-control {
+  background-color: #fff;
+  border: 0;
+  position: relative;
+  padding-left: 0em;
+  max-width: 60%;
+}
+
+.navBar .input {
+  border: 0;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  height: 42px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.navBar .btn {
+  background-color: #f2a4ba;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  height: 42px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 6px;
+  right: 9px;
+  border-radius: 0;
+}
+.navBar .input:focus,
+.btn:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+
+
+navBar start
+.firstRow{
+    background-color: #bd9341;
+    color: #fff;
+    padding: 12px 0px
+  }
+
+
+  .firstRow ul li {
+    display: inline-block;
+    font-size: 14px;
+
+  }
+
+  .firstRow  a {
+  color: #fff;
+  }
+
+  .firstRow .sigin{
+    width: 220px;
+  }
+
+  .firstRow .left{
+    margin-left: 147px;
+  }
+
+  .navBar .secondRow {
+    padding: 1em 0em;
+  }
+  .navBar .secondRow .colum2{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navBar .firstRow img{
+    width: 24px;
+  }
+
+
+  .navBar .secondRow .phone-logo {
+    margin: auto;
+     border: 1px solid;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: pink;
+    margin-left: 0px;
+  }
+
+  .navBar .secondRow .heart-icon {
+    padding: 1em 2em;
+  }
+
+  .navBar .thirdRow .logo-parent{
+    position: relative;
+  }
+  .navBar .thirdRow {
+      padding: 22px 0;
+  }
+  .navBar .thirdRow .logo img{
+    position: absolute;
+      top: -75px;
+      width: 11rem;
+      right: 12px;
+  }
+
+
+  .navBar .thirdRow .navleft ul li{
+    text-decoration: none;
+    }
+
+
+      .navBar .thirdRow  ul{
+        display: flex;
+        list-style: none;
+        margin-top: 1em;
+        justify-content: space-between;
+        padding: 0;
+        }
+
+        .navBar .thirdRow .navright ul li{
+          padding-right: 1em;
+          text-decoration: none;
+
+          }
+
+          .navBar .thirdRow  ul li a{
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+            }
+
+
+
+
